@@ -1,0 +1,157 @@
+body{
+    background: black;
+}
+header{
+    background: hsl(36, 100%, 99%);
+    width: 990px;
+    height: 630px;
+    margin: 0 auto;
+    overflow-y: scroll;
+}
+header::-webkit-scrollbar{
+    display: none;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.nav ul li{
+    display: inline-flex;
+    margin-top: 5%;
+}
+.img{
+    width: 30px;
+    height: 30px;
+    margin-left: 70%;
+    padding: 40px;
+
+    
+}
+.nav ul li a{
+    text-decoration: none;
+    color:  hsl(236, 13%, 42%);
+    padding: 10px;
+    
+}
+.img1{
+    width: 500px;
+    height: 150px;
+    margin-left: 6%;
+}
+.one{
+    width: 250px;
+    height: 400px;
+    background: hsl(240, 100%, 5%);
+    margin-left: 58%;
+    margin-top: -19%;
+    display: none;
+    
+}
+.one.active-page{
+    display: block;
+}
+.nav li a:hover{
+    background: blue;
+    color: white;
+    
+}
+.nav .active a{
+    background: blue;
+    color: white;
+}
+.one1{
+    color:  hsl(35, 77%, 62%);
+    padding: 15px;
+}
+h2{
+    color:  hsl(36, 100%, 99%);
+    font-size: 16px;
+    margin-left: 20px;
+}
+p{
+    color: hsl(233, 8%, 79%);
+    font-size: 15px;
+    margin-left: 20px;
+}
+hr{
+    color: hsl(233, 8%, 79%);
+    width: 200px;
+    
+}
+.two{
+    font-size: 16px;
+    color: hsl(36, 100%, 99%);
+    margin-left: 20px;
+}
+.three{
+    font-size: 13px;
+    color: hsl(36, 100%, 99%);
+    margin-left: 20px;
+}
+.web{
+    font-size: 30px;
+    color:  hsl(240, 100%, 5%);
+    margin-left: 8%;
+
+}
+.para{
+    display: flex;
+}
+.read1{
+    font-size: 20px;
+    color: hsl(236, 13%, 42%);
+    display: none;
+    
+}
+.more{
+    margin-left: 30%;
+    padding: 10px;
+    width: 100px;
+    cursor: pointer;
+    background:  hsl(5, 85%, 63%);
+}
+.more:hover{
+    background: brown;
+}
+ .read1.active-read{
+    display: block;
+ }
+.click{
+    padding: 10px;
+    margin-left: 20%;
+    border-radius: 10px;
+    background: red;
+     cursor: pointer;
+     margin-bottom: 40px;    
+}
+.click:hover{
+    background: blue;
+}
+.rc{
+    width: 100px;
+    height: 100px;
+    margin-left: 10%;
+}
+h1{
+    color: hsl(236, 13%, 42%); ;
+}
+.photos{
+    display: flex;
+    gap: 30px;
+    display: none;
+}
+.photo{
+    display: flex;
+}
+.pc{
+color:  hsl(240, 100%, 5%);;
+margin-top: -2%;
+margin-left: -0%;
+}
+.old{
+    font-size: 16px;
+}
+.photos.active-photo{
+    display: block;
+    display: flex;
+}
